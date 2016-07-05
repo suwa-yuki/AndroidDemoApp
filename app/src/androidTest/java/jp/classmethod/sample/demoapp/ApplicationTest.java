@@ -10,4 +10,9 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
     }
+    public void test_getAppNameのテスト() {
+        String appName = getContext().getString(R.string.app_name);
+        assertNotNull(appName);
+        assertEquals("DemoApp", appName);
+    }
 }
