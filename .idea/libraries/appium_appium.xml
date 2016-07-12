@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="appium.appium">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/appium/build/libs/appium.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
